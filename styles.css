@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#moto{
+  position: absolute;
+  z-index: 100;
+  width: 22%;
+  height: 22%;
+  top: 70%;
+  left: 24%;
+}
+#som{
+  position: absolute;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  right: 0%;
+}
+#sem{
+  position: absolute;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  right: 0%;
+}
+#acidente{
+  position: absolute;
+  z-index: 100;
+  width: 160px;
+  height: 25%;
+  top: 75%;
+  right: 10%;
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one {
+  background: url("bkg2.png");
+  background-size: auto 100vh;
+  background-repeat: repeat-x;
+  width: 400vw;
+}
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display:none;
+}
